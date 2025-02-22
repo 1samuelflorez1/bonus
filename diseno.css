@@ -1,48 +1,469 @@
-ul li{
+ul li {
     display: inline;
-    margin: 0 150px;
-    }
-    
+    margin: 0 100px;
+}
 
-.profile{
+/*zona de el perfil arriba*/
 
-    padding-left: 50px;
+.profile {
+
+    padding-left: 0px;
     padding-right: 50px;
     text-align: justify;
-    padding-right: 700px;
+    padding-right: 200px;
 
 }
 
-.nombre {
 
-text-align: right;
+.perfil {
+
+    width: 90%;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: 1px solid black;
 
 }
+
+.profile {
+
+    padding: 25px 25px 0px 0px;
+    width: 90%;
+    text-align: justify;
+}
+
+.perfil2 {
+
+    display: flex;
+
+}
+
+/*Zona de la educacion*/
 
 .education {
 
-width: 100%;
-padding-left: 50px;
-padding-right: 50px;
+    width: 95%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black ;
+    
 
 }
 
 .education-element {
 
-padding: 25px 25px 25px 0px;
-width: 50%;
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+    text-align: justify;
+    padding-right: 25px;
+}
+
+.education-container {
+
+    display: flex;
 
 }
 
-.education-container{
+.borde {
 
-display: flex;
+    border-left: 1px solid black;
+    padding-left: 25px;
+}
+
+/*Zona de la experiencia*/
+
+.experiencia {
+
+    width: 95%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+
 
 }
 
-.borde{
+.experiencia-element {
 
-border-left: 3px; 
-padding-left: 25px;
+    padding: 25px 25px px 0px;
+    width: 50%;
+    text-align: justify;
+    padding-right: 25px;
+}
+
+.experiencia-container {
+
+    display: flex;
 
 }
+
+.borde {
+
+    border-left: 1px solid black;
+    padding-left: 25px;
+}
+
+
+/*Zona de las habilidades*/
+
+.habilidades {
+
+    width: 95%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+
+
+}
+
+.habilidades-element {
+
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+    text-align: justify;
+    padding-right: 25px;
+    
+}
+
+.habilidades-container {
+
+    display: flex;
+
+}
+
+.borde {
+
+    border-left: 1px solid black;
+    padding-left: 25px;
+}
+
+#python-cuadro-negro{
+
+    background-color: black;
+    padding-left: 1px;
+}
+
+#python-cuadro-gris{
+
+    background-color: rgb(200, 200, 200);
+    padding-right: 5px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    padding-left: 20px;
+}
+
+#java-cuadro-negro{
+
+    background-color: black;
+    padding-left: 22px;
+    margin-left: 3px;
+}
+
+#java-cuadro-gris{
+
+    background-color: rgb(200, 200, 200);
+    padding-right: 1px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    padding-left: 2px;
+}
+
+#c-cuadro-negro{
+
+    background-color: black;
+    padding-left: 22px;
+    margin-left: 3px;
+
+}
+
+#c-cuadro-gris{
+
+    background-color: rgb(200, 200, 200);
+    padding-right: 1px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    padding-left: 51px;
+}
+
+#ruby-cuadro-negro{
+
+    background-color: black;
+    padding-left: 22px;
+    margin-left: 3px;
+
+}
+
+#ruby-cuadro-gris{
+
+    background-color: rgb(200, 200, 200);
+    padding-right: 1px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    padding-left: 204px;
+}
+
+#s-cuadro-negro{
+
+    background-color: black;
+    padding-left: 22px;
+    margin-left: 3px;
+
+}
+
+#s-cuadro-gris{
+
+    background-color: rgb(200, 200, 200);
+    padding-right: 1px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    padding-left: 57px;
+}
+
+#sql-cuadro-negro{
+
+    background-color: black;
+    padding-left: 22px;
+    margin-left: 3px;
+
+}
+
+#sql-cuadro-gris{
+
+    background-color: rgb(200, 200, 200);
+    padding-right: 1px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    padding-left: 9px;
+}
+
+/*Zona de proyectos*/
+
+.proyectos1{
+
+    width: 95%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;  
+   
+
+}
+
+.proyectos2{
+
+    width: 95%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;  
+    border-bottom: 1px solid black;
+
+}
+
+
+.proyectos-element {
+
+    padding: 25px 25px px 0px;
+    width: 50%;
+    text-align: justify;
+    padding-right: 25px;
+}
+
+.proyectos-container {
+
+    display: flex;
+
+}
+
+.borde {
+
+    
+    padding-left: 25px;
+}
+
+/*Idiomas y certificaciones*/
+
+.idiomas{
+
+    width: 95%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;  
+    border-bottom: 1px solid black;
+
+}
+
+
+.idiomas-element {
+
+    padding: 25px 25px px 0px;
+    width: 50%;
+    text-align: justify;
+    padding-right: 25px;
+}
+
+.idiomas-container {
+
+    display: flex;
+
+}
+
+.borde {
+
+    
+    padding-left: 25px;
+}
+
+.certificacion{
+
+    width: 95%;
+    padding-left: 5px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 5px;  
+    
+
+}
+
+
+.certificacion-element {
+
+    padding: 25px 25px px 0px;
+    width: 50%;
+    text-align: justify;
+    padding-right: 25px;
+}
+
+.certificacion-container {
+
+    display: flex;
+
+}
+
+.certificacion-2 {
+
+    width: 95%;
+    padding: 25px
+    
+
+}
+
+#english-cuadro-negro{
+
+    background-color: black;
+    padding-left: 22px;
+    margin-left: 3px;
+
+}
+
+#english-cuadro-gris{
+
+    background-color: rgb(200, 200, 200);
+    padding-right: 1px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    padding-left: 9px;
+}
+
+#german-cuadro-negro{
+
+    background-color: black;
+    padding-left: 1px;
+    margin-left: 7px;
+
+}
+
+#german-cuadro-gris{
+
+    background-color: rgb(200, 200, 200);
+    padding-right: 1px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    padding-left: 31px;
+}
+
+#french-cuadro-negro{
+
+    background-color: black;
+    padding-left: 1px;
+    margin-left: 14px;
+
+}
+
+#french-cuadro-gris{
+
+    background-color: rgb(200, 200, 200);
+    padding-right: 1px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    padding-left: 86px;
+}
+
+#spanish-cuadro-negro{
+
+    background-color: black;
+    padding-left: 87px;
+    margin-left: 7px;
+    
+
+}
+
+#spanish-cuadro-gris{
+
+    background-color: rgb(200, 200, 200);
+    padding-right: 1px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    padding-left: 5px;
+}
+
+#turkis-cuadro-negro{
+
+    background-color: black;
+    padding-left: 1px;
+    margin-left: 17px;
+    
+
+}
+
+#turkis-cuadro-gris{
+
+    background-color: rgb(200, 200, 200);
+    padding-right: 1px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    padding-left: 40px;
+}
+
+/*Hobbies*/
+
+.hobbies titulo-hobbies{
+
+    padding-left: 50px;
+
+}
+
+
+.hobbie1 {
+
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 50px;
+
+}
+
+.hobbie1 i {
+    font-size: 40px;
+    width: 47px;
+    height: 100px;
+    margin: 4px;
+}
+
+.todos-hobbies ul li a{
+
+
+    margin: -30px;
+
+}
+
