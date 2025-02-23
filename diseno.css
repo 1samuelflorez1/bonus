@@ -1,9 +1,17 @@
+
 ul li {
     display: inline;
     margin: 0 100px;
 }
 
 /*zona de el perfil arriba*/
+
+.cuadrobeige{
+
+background-color: rgb(225, 166, 95);
+width: 100px;
+height: 300px;
+}
 
 .profile {
 
@@ -37,6 +45,13 @@ ul li {
 
 }
 
+.engineer {
+
+background-color: rgb(225, 166, 95);
+width: 500px;
+
+}
+
 /*Zona de la educacion*/
 
 .education {
@@ -45,8 +60,8 @@ ul li {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
-    border-bottom: 1px solid black ;
-    
+    border-bottom: 1px solid black;
+
 
 }
 
@@ -122,7 +137,7 @@ ul li {
     width: 50%;
     text-align: justify;
     padding-right: 25px;
-    
+
 }
 
 .habilidades-container {
@@ -137,13 +152,13 @@ ul li {
     padding-left: 25px;
 }
 
-#python-cuadro-negro{
+#python-cuadro-negro {
 
     background-color: black;
     padding-left: 1px;
 }
 
-#python-cuadro-gris{
+#python-cuadro-gris {
 
     background-color: rgb(200, 200, 200);
     padding-right: 5px;
@@ -152,14 +167,14 @@ ul li {
     padding-left: 20px;
 }
 
-#java-cuadro-negro{
+#java-cuadro-negro {
 
     background-color: black;
     padding-left: 22px;
     margin-left: 3px;
 }
 
-#java-cuadro-gris{
+#java-cuadro-gris {
 
     background-color: rgb(200, 200, 200);
     padding-right: 1px;
@@ -168,7 +183,7 @@ ul li {
     padding-left: 2px;
 }
 
-#c-cuadro-negro{
+#c-cuadro-negro {
 
     background-color: black;
     padding-left: 22px;
@@ -176,7 +191,7 @@ ul li {
 
 }
 
-#c-cuadro-gris{
+#c-cuadro-gris {
 
     background-color: rgb(200, 200, 200);
     padding-right: 1px;
@@ -185,7 +200,7 @@ ul li {
     padding-left: 51px;
 }
 
-#ruby-cuadro-negro{
+#ruby-cuadro-negro {
 
     background-color: black;
     padding-left: 22px;
@@ -193,7 +208,7 @@ ul li {
 
 }
 
-#ruby-cuadro-gris{
+#ruby-cuadro-gris {
 
     background-color: rgb(200, 200, 200);
     padding-right: 1px;
@@ -202,7 +217,7 @@ ul li {
     padding-left: 204px;
 }
 
-#s-cuadro-negro{
+#s-cuadro-negro {
 
     background-color: black;
     padding-left: 22px;
@@ -210,7 +225,7 @@ ul li {
 
 }
 
-#s-cuadro-gris{
+#s-cuadro-gris {
 
     background-color: rgb(200, 200, 200);
     padding-right: 1px;
@@ -219,7 +234,7 @@ ul li {
     padding-left: 57px;
 }
 
-#sql-cuadro-negro{
+#sql-cuadro-negro {
 
     background-color: black;
     padding-left: 22px;
@@ -227,7 +242,7 @@ ul li {
 
 }
 
-#sql-cuadro-gris{
+#sql-cuadro-gris {
 
     background-color: rgb(200, 200, 200);
     padding-right: 1px;
@@ -238,24 +253,24 @@ ul li {
 
 /*Zona de proyectos*/
 
-.proyectos1{
+.proyectos1 {
 
     width: 95%;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
-    padding-top: 50px;  
-   
+    padding-top: 50px;
+
 
 }
 
-.proyectos2{
+.proyectos2 {
 
     width: 95%;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
-    padding-top: 50px;  
+    padding-top: 50px;
     border-bottom: 1px solid black;
 
 }
@@ -277,19 +292,19 @@ ul li {
 
 .borde {
 
-    
+
     padding-left: 25px;
 }
 
 /*Idiomas y certificaciones*/
 
-.idiomas{
+.idiomas {
 
     width: 95%;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
-    padding-top: 50px;  
+    padding-top: 50px;
     border-bottom: 1px solid black;
 
 }
@@ -311,18 +326,18 @@ ul li {
 
 .borde {
 
-    
+
     padding-left: 25px;
 }
 
-.certificacion{
+.certificacion {
 
     width: 95%;
     padding-left: 5px;
     padding-right: 50px;
     padding-bottom: 50px;
-    padding-top: 5px;  
-    
+    padding-top: 5px;
+
 
 }
 
@@ -345,11 +360,9 @@ ul li {
 
     width: 95%;
     padding: 25px
-    
-
 }
 
-#english-cuadro-negro{
+#english-cuadro-negro {
 
     background-color: black;
     padding-left: 22px;
@@ -357,7 +370,7 @@ ul li {
 
 }
 
-#english-cuadro-gris{
+#english-cuadro-gris {
 
     background-color: rgb(200, 200, 200);
     padding-right: 1px;
@@ -366,7 +379,7 @@ ul li {
     padding-left: 9px;
 }
 
-#german-cuadro-negro{
+#german-cuadro-negro {
 
     background-color: black;
     padding-left: 1px;
@@ -374,7 +387,7 @@ ul li {
 
 }
 
-#german-cuadro-gris{
+#german-cuadro-gris {
 
     background-color: rgb(200, 200, 200);
     padding-right: 1px;
@@ -383,7 +396,7 @@ ul li {
     padding-left: 31px;
 }
 
-#french-cuadro-negro{
+#french-cuadro-negro {
 
     background-color: black;
     padding-left: 1px;
@@ -391,7 +404,7 @@ ul li {
 
 }
 
-#french-cuadro-gris{
+#french-cuadro-gris {
 
     background-color: rgb(200, 200, 200);
     padding-right: 1px;
@@ -400,16 +413,16 @@ ul li {
     padding-left: 86px;
 }
 
-#spanish-cuadro-negro{
+#spanish-cuadro-negro {
 
     background-color: black;
     padding-left: 87px;
     margin-left: 7px;
-    
+
 
 }
 
-#spanish-cuadro-gris{
+#spanish-cuadro-gris {
 
     background-color: rgb(200, 200, 200);
     padding-right: 1px;
@@ -418,16 +431,16 @@ ul li {
     padding-left: 5px;
 }
 
-#turkis-cuadro-negro{
+#turkis-cuadro-negro {
 
     background-color: black;
     padding-left: 1px;
     margin-left: 17px;
-    
+
 
 }
 
-#turkis-cuadro-gris{
+#turkis-cuadro-gris {
 
     background-color: rgb(200, 200, 200);
     padding-right: 1px;
@@ -438,32 +451,36 @@ ul li {
 
 /*Hobbies*/
 
-.hobbies titulo-hobbies{
+.hobbies {
 
-    padding-left: 50px;
-
-}
-
-
-.hobbie1 {
-
-    border-radius: 50%;
-    border: 2px solid black;
-    font-size: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
 
 }
 
-.hobbie1 i {
-    font-size: 40px;
-    width: 47px;
-    height: 100px;
-    margin: 4px;
-}
+.hobbies-todo {
 
-.todos-hobbies ul li a{
-
-
-    margin: -30px;
+    display: flex;
+    padding: 20px;
 
 }
 
+.hobby img {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 80px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+
+
+}
+
+.hobby {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 260px;
+
+}
