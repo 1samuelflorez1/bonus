@@ -1,24 +1,45 @@
+body{
+
+padding: 20px;
+
+}
 
 ul li {
     display: inline;
-    margin: 0 100px;
+    margin: 0 105px;
+    margin-left: 100px;
+
 }
 
 /*zona de el perfil arriba*/
 
-.cuadrobeige{
+.engineer{
 
 background-color: rgb(225, 166, 95);
-width: 100px;
-height: 300px;
+font-weight: bold;
+padding: 5px 10px;
+display: inline-block;
+margin-right: -124px;
+
+}
+
+.cu{
+
+background-color: rgb(225, 166, 95);
+padding-left: 50px;
+padding-bottom: 306px;
+padding-top: 40px;
+margin-left: -30px;
+color: rgb(225, 166, 95);
+
 }
 
 .profile {
 
-    padding-left: 0px;
+    padding-left: 20px;
     padding-right: 50px;
     text-align: justify;
-    padding-right: 200px;
+  
 
 }
 
@@ -29,6 +50,11 @@ height: 300px;
     padding-left: 50px;
     padding-right: 50px;
     border-bottom: 1px solid black;
+}
+
+.perfil h1{
+
+font-size: 40px;
 
 }
 
@@ -42,6 +68,7 @@ height: 300px;
 .perfil2 {
 
     display: flex;
+    margin-top: -50px;
 
 }
 
@@ -49,6 +76,12 @@ height: 300px;
 
 background-color: rgb(225, 166, 95);
 width: 500px;
+
+}
+
+.nombre h1{
+
+margin-top: -20px;
 
 }
 
@@ -62,6 +95,11 @@ width: 500px;
     padding-bottom: 50px;
     border-bottom: 1px solid black;
 
+}
+
+.education h2{
+
+font-size: 50px;
 
 }
 
@@ -76,7 +114,7 @@ width: 500px;
 .education-container {
 
     display: flex;
-
+    margin-top: -50px;
 }
 
 .borde {
@@ -97,6 +135,12 @@ width: 500px;
 
 }
 
+.experiencia h2{
+
+font-size: 50px;
+
+}
+
 .experiencia-element {
 
     padding: 25px 25px px 0px;
@@ -108,8 +152,9 @@ width: 500px;
 .experiencia-container {
 
     display: flex;
-
+    margin-top: -20px;
 }
+
 
 .borde {
 
@@ -127,7 +172,6 @@ width: 500px;
     padding-right: 50px;
     padding-bottom: 50px;
     border-bottom: 1px solid black;
-
 
 }
 
@@ -454,14 +498,18 @@ width: 500px;
 .hobbies {
 
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: -30px;
 
 }
 
 .hobbies-todo {
 
     display: flex;
-    padding: 20px;
+    padding-left: -70px;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-left: -85px;
+
 
 }
 
@@ -471,16 +519,15 @@ width: 500px;
     height: 50px;
     border-radius: 80px;
     border: 2px solid rgb(0, 0, 0);
-    padding: 10px;
+    padding: 8px;
 
 
 }
 
 .hobby {
-
+    width: 300px;
     display: flex;
-    align-items: center;
+    flex-direction: column; 
+    align-items: center; 
     text-align: center;
-    width: 260px;
-
 }
